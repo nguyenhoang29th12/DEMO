@@ -58,11 +58,8 @@ You can:
 
 You can reach out to us at:
 
--   Sandeep Rajakrishnan:
-
-
-
--   Sudhay:
+-   [Facebook](fb.com/bomaytenhoang)
+    [Facebook](fb.com/bomaytenhoang)
 
 
 -   [Join Our Discord](https://discord.gg/yhtkaawfNq)
