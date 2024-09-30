@@ -60,12 +60,10 @@ You can reach out to us at:
 
 -   Sandeep Rajakrishnan:
 
-    -   [@san-coding](https://github.com/san-coding) - GitHub
-    -   [@Sandeeprajakris](https://twitter.com/Sandeeprajakris) - Twitter
+
 
 -   Sudhay:
-    -   [@sudhay23](https://github.com/sudhay23) - GitHub
-    -   [@Sudhay16](https://twitter.com/Sudhay16) - Twitter
+
 
 -   [Join Our Discord](https://discord.gg/yhtkaawfNq)
 <br>
