@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bộ Đếm Request</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        #counter {
+            font-size: 2rem;
+            color: #007BFF;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1rem;
+            color: #fff;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trang này đã được truy cập:</h1>
+    <div id="counter">0</div>
+    <h3>Lần</h3>
+    <button id="resetButton">Reset</button>
+
+    <script>
+        // Lấy bộ đếm từ localStorage
+        let count = localStorage.getItem('requestCount');
+
+        // Nếu chưa có giá trị, khởi tạo là 0
+        if (!count) {
+            count = 0;
+        }
+
+        // Tăng giá trị của bộ đếm
+        count++;
+
+        // Lưu giá trị vào localStorage
+        localStorage.setItem('requestCount', count);
+
+        // Hiển thị giá trị lên trang
+        document.getElementById('counter').textContent = count;
+
+        // Thêm sự kiện cho nút Reset
+        document.getElementById('resetButton').addEventListener('click', () => {
+            // Đặt lại bộ đếm về 0
+            count = 0;
+
+            // Lưu lại giá trị vào localStorage
+            localStorage.setItem('requestCount', count);
+
+            // Cập nhật giao diện
+            document.getElementById('counter').textContent = count;
+        });
+    </script>
+</body>
+</html>
